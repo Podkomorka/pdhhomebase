@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;800&display=swap');
+
+/* ========== Variables ========== */
+:root {
+  font-size: 62.5%;
+  --primary-color: #802eaf;
+  --font-dark: #181818;
+  --font-light: #636363;
+  --font-family: Raleway, sans-serif;
+  --page-width: 900px;
+  --category-announcement: #eb6424;
+  --category-commontary: #0fa3b1;
+  --category-spotlight: #802eaf;
+  --category-guide: #55a630;
+  --category-duel: #ef233c;
+}
+
+/* ========== Layout ========== */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#root {
+  display: flex;
+  justify-content: center;
+}
+.App {
+  margin: 0 2rem;
+  width: var(--page-width);
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: var(--font-family);
+  color: var(--font-light);
+}
+section {
+  margin-bottom: 8rem;
+}
+
+/* ========== Typography ========== */
+h1,
+h2,
+h3 {
+  color: var(--font-dark);
+  margin-bottom: 3rem;
+}
+h1 {
+  font-size: 6rem;
+  font-weight: 800;
+  margin-bottom: 8rem;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+p {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+li {
+  font-size: 2rem;
+  margin-bottom: 1.4rem;
+}
+a {
+  font-size: 2rem;
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: opacity .2s ease;
+}
+a:hover {
+  opacity: 0.5;
+  transition: opacity .2s ease;
+}
+
+/* ========== Utility ========== */
+.break {
+  border-top: 1px solid var(--font-dark);
+  margin-bottom: 8rem;
+}
+.card {
+  max-width: 22rem;
+  border-radius: 3%;
+}
+
+/* ========== Navbar ========== */
+.navbar {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.navbar img {
+  width: 35rem;
+  margin: 2rem 0;
+}
+.navbar .links {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar a {
+  font-size: 2rem;
+  color: var(--font-dark);
+}
+
+/* ========== Footer ========== */
+.footer p {
+  font-size: 1.3rem;
+}
+
+/* ========== Home ========== */
+.intro div {
+  max-width: 90rem;
+  margin: auto;
+  padding-top: 4rem;
+}
+.intro h1 {
+  margin-bottom: 3rem;
+}
+.intro p {
+  font-size: 3rem;
+}
+.reasons {
+  display: flex;
+  justify-content: space-around;
+}
+.reason {
+  max-width: 25rem;
+}
+.join div {
+  display: flex;
+  justify-content: center;
+}
+.join a {
+  margin: 0 2rem;
+}
+.join a:first-child {
+  margin: 0 1.5rem 0 1rem;
+}
+
+/* ========== Rules ========== */
+.rules {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+.rule li {
+  text-align: left;
+}
+.rule a:hover {
+  text-decoration: underline;
+}
+
+/* ========== FAQ ========== */
+.faq {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.faq .faq__text-wrap {
+  max-width: 70rem;
+}
+.faq .faq__text {
+  text-align: left;
+  line-height: 3rem;
+}
+.flip {
+  flex-direction: row-reverse;
+}
+
+/* ========== Articles ========== */
+
+/* ========== About Us ========== */
+.members {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4rem;
+}
+.member {
+  max-width: 80rem;
+  width: 100%;
+  padding: 2rem;
+  margin: 1rem auto 1rem auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  box-shadow: .2rem .2rem .5rem var(--font-dark);
+}
+.member__picture {
+  border-radius: 50%;
+}
+.member__info {
+  text-align: left;
+}
+.member__name {
+  margin: 2rem 0 1rem 0;
+}
+.member__role {
+  font-size: 1.6rem;
+  color: var(--primary-color);
+  margin-bottom: 3rem;
+}

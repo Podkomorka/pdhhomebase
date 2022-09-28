@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Podkomorka",
+    "pfp": "podkomorka",
+    "roles": "Manager / Website / Discord / Facebook / RC Member",
+    "bio": "Hello, my name is Jonathan and I've been playing Magic since 2013. I've been a part of the PDH Home Base community since 2018 and I'm tasked with the development of the PDH community by managing our website, articles, Discord server, Facebook, and other online resources."
+  },
+  {
+    "id": 2,
+    "name": "Scarecrow",
+    "pfp": "scarecrow",
+    "roles": "Manager / Reddit / RC Member / Writer",
+    "bio": "Hello. My name is Paul, and I go by Scarecrow1779 online. I'm an article writer and Rules Committee member for PDH Home Base and a moderator for the PauperEDH subreddit. I started playing magic during OG Mirrodin (2004) and started playing PDH around the beginning of 2018. I am a brewer at heart and love creating new, inventive strategies that contribute to this format's wonderful diversity."
+  },
+  {
+    "id": 3,
+    "name": "Ruffigan",
+    "pfp": "ruffigan",
+    "roles": "Manager / Reddit / RC Member",
+    "bio": "My name is Ruffigan. I started playing Magic during the Ravnica block and have been playing Pauper EDH since around 2013. I moderate the PDH Home Base, Pauper EDH subreddit, and create resources and outreach for the format. I enjoy playing \"75%\" decks but like the occasional casual and competitive games as well. My favorite PDH deck is Marsh Crocodile."
+  },
+  {
+    "id": 4,
+    "name": "Clay",
+    "pfp": "clay",
+    "roles": "Manager / RC Member",
+    "bio": "My name is Clay and I started playing Magic in 1997. After a short hiatus, I returned at the end of Zendikar Block #1 where I begin playing standard FNMs until I moved from Arizona to California. Living close to Channel Fireball (the old location downtown), I left Standard behind and began grinding Modern events and regional championships. I've played competitive commander from the moment I opened the Heavenly Inferno Precon in 2011 and was on the development team for the first cEDH-viable Kaalia of the Vast list. I am an active member in both the Competitive Commander (cEDH) and Competitive Pauper Commander (cPDH) scenes."
+  },
+  {
+    "id": 5,
+    "name": "Nero64",
+    "pfp": "nero64",
+    "roles": "Scryfall Team",
+    "bio": "Hello! My name is Chev and I started playing Magic around Dragons of Tarkir, or 2015. While EDH quickly took hold as the dominant format for my playgroup we started playing PDH around the beginning of 2020 with the release of Theros Beyond Death. From there it's been an obsession. Any given night I find myself brewing for PDH, cPDH, AND PDC! I help maintain the Pauper Commander legality on Scryfall and I'm a member of the cPDH Deck Database committee. You can also find me with The Hexdrinkers Podcast or on Twitter! My favorite deck is either Azra Oddsmaker or Duskmantle Guildmage/Persistent Petitioners. Grixis FTW."
+  },
+  {
+    "id": 6,
+    "name": "Oak Tree",
+    "pfp": "oak_tree",
+    "roles": "Scryfall Team",
+    "bio": "Hi, my name is Oakley and I work on the PDH Scryfall database. I started really getting into magic around the time Dragons of Tarkir was released. Pauper was a long-time favorite format of mine, which I played a ton of on MTGO. I got into PDH with a group of my close friends around the time I graduated college and have been playing regularly ever since."
+  },
+  {
+    "id": 7,
+    "name": "Plant",
+    "pfp": "plant",
+    "roles": "RC Member",
+    "bio": "My name is Thomas. I started playing magic with Kamigawa and took a long break between the two first Ravnica blocks. I play EDH and PDH mostly, but I also enjoy kitchen table a lot if I find a group to play it. Anything that lets me find a home for weird cards and interactions to work, really. Most of my pet cards break the color pie. As a player, I want everyone at the table to have fun. Unless you kill my Scaretiller."
+  },
+  {
+    "id": 8,
+    "name": "Derek",
+    "pfp": "derek",
+    "roles": "RC Member / Writer",
+    "bio": "My name is derek online and also in real life. I've been playing Magic for a little over 25 years, and have been actively playing EDH and pEDH since 2013. I am one of the original writers at PDH Home Base, mostly known for, if anything, wasting my time developing hyper-aggressive and mid-range strategies for a 75%+ deckbuilding environment. Due to my inability to maintain any semblance of a writing schedule, my primary focus now is to maintain the integrity of the format and keep things as healthy as possible. My past, current, and future favorite PDH deck is Thunderscape Battlemage."
+  },
+  {
+    "id": 9,
+    "name": "Alkadron",
+    "pfp": "alkadron",
+    "roles": "RC Member / Writer",
+    "bio": "My name is Dave but I'm Alkadron most places online. I'm part of the writing team for PDH Home Base (And now the Rules Committee as well!). I've been playing Magic since 1995, and PDH since 2013. I've got a lot of favorite decks so I won't try to list them here, but the general theme is: I like all-in decks that do things much more than decks that prevent your opponents from doing anything. I play a lot of Red and do not regret it."
+  },
+  {
+    "id": 10,
+    "name": "Mosi",
+    "pfp": "mosi",
+    "roles": "RC Member / Writer",
+    "bio": "Hi, my name is Mosi and I started playing Magic in 2008 and PDH in 2017. Never been a standard player or a Standard player; for me it's all about pondering card interactions and rules quirks. I got into PDH with a Sandsower Tokens deck, and it was absolute jank trash. I like to think I've lived up to that with every jank build I've made since then."
+  },
+  {
+    "id": 11,
+    "name": "Crash",
+    "pfp": "crash",
+    "roles": "RC Member",
+    "bio": "Hello, my name is Crash. I've started playing Magic when Kamigawa came out. I ultimately ended up as Limited player through and through, while my constructed format of choice is Pauper. I've started brewing competitive PDH decks in 2018/2019 and always tried to break the format. I'd rather work on a deck for months and months to make it as smooth and tight as possible, than build several decks without deeper work on them. My love to archetypes doesnt know any borders. I like some beatdown in formats that allow it, I like some hard control in formats that allow it and I like some combo in formats that allow it. Im probably just a spike that always seeks to understand what works best where and why."
+  },
+  {
+    "id": 12,
+    "name": "Yaloron",
+    "pfp": "yaloron",
+    "roles": "RC Member",
+    "bio": "Hi, I'm Yaloron. I have been playing Pauper EDH for almost a decade now, the majority of it with casual decks, but focusing primarily on competitive PDH in recent years. I try to find and build the best decks in the format and curate the Tier List for cPDH."
+  }
+]
