@@ -1,0 +1,58 @@
+[
+  {
+    "id": 113,
+    "title": "Pauper Duel Commander (1v1) Banlist Update - Oubliette",
+    "date": "August 30, 2022",
+    "author": "TheEDH",
+    "categories": ["duel", "announcement"],
+    "intro": "Effective September 1, Oubliette will no longer be legal in Pauper Duel Commander. (This does not affect multiplayer PDH.)"
+  },
+  {
+    "id": 112,
+    "title": "What to Expect: An Early Metagame Analysis",
+    "date": "August 2, 2022",
+    "author": "Naptown Hustle",
+    "categories": ["duel", "commontary"],
+    "intro": "Welcome to Pauper Duel Commander or PDC!"
+  },
+  {
+    "id": 111,
+    "title": "Background Rules Update",
+    "date": "June 6, 2022",
+    "author": "PDH Home Base (Paul)",
+    "categories": ["announcement"],
+    "intro": "This short article is a follow-up to the Backgrounds Ruling & Reasoning article from the end of last month."
+  },
+  {
+    "id": 110,
+    "title": "Happy 10th Birthday Baleful Strix!",
+    "date": "May 31, 2022",
+    "author": "TheEDH",
+    "categories": ["duel", "spotlight"],
+    "intro": "A Celebration, Damnation, History and Primer On this day ten years ago..."
+  },
+  {
+    "id": 109,
+    "title": "PDH vs EDH",
+    "date": "May 31, 2022",
+    "author": "ichigo",
+    "categories": ["commontary"],
+    "intro": "So you've playtested your PDH deck, and you've even put it together in paper, but have you considered how it'll play against EDH decks?"
+  },
+  {
+    "id": 108,
+    "title": "Backgrounds",
+    "date": "May 25, 2022",
+    "author": "Alkadron",
+    "categories": ["commontary"],
+    "intro": "Indulge me in a hypothetical. Imagine, if you will, that you have a friend who's been blind since birth. One day, she undergoes a..."
+  },
+  {
+    "id": 107,
+    "title": "Disciple of Deceit Deck Tech",
+    "date": "May 24, 2022",
+    "author": "Naptown Hustle",
+    "categories": ["duel", "spotlight"],
+    "intro": "Today we will go over how I built my first, and favorite, Duel PDH deck..."
+  }
+]

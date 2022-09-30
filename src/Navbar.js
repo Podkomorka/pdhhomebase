@@ -6,10 +6,10 @@ const Navbar = () => {
       <img src={require("./assets/icon.jpg")} alt="pdh home base logo"/>
       <div className="links">
         <Link to="/">HOME</Link>
-        <Link to="/Rules">RULES</Link>
-        <Link to="/Faq">FAQ</Link>
-        <Link to="/Articles">ARTICLES</Link>
-        <Link to="/About">ABOUT US</Link>
+        <Link to="/rules">RULES</Link>
+        <Link to="/faq">FAQ</Link>
+        <Link to="/articles">ARTICLES</Link>
+        <Link to="/about">ABOUT US</Link>
       </div>
     </nav>
   );

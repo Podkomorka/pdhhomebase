@@ -1,4 +1,4 @@
-const Home = () => {
+const Faq = () => {
   return (
     <div className="faq-page">
       <h1>Format Oddities</h1>
@@ -36,4 +36,4 @@ const Home = () => {
   );
 }
  
-export default Home;
+export default Faq;

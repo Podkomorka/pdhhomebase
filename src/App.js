@@ -7,6 +7,7 @@ import Articles from './Articles';
 import About from './About';
 import NotFound from './NotFound';
 import Footer from './Footer';
+import ArticleDetails from './ArticleDetails';
 
 function App() {
   return (
@@ -16,10 +17,11 @@ function App() {
         <div className="content">
           <Routes>
             <Route exact path="/" element={<Home />}/>
-            <Route path="/Rules" element={<Rules />}/>
-            <Route path="/Faq" element={<Faq />}/>
-            <Route path="/Articles" element={<Articles />}/>
-            <Route path="/About" element={<About />}/>
+            <Route path="/rules" element={<Rules />}/>
+            <Route path="/faq" element={<Faq />}/>
+            <Route path="/articles" element={<Articles />}/>
+            <Route path="/articles/:id" element={<ArticleDetails />}/>
+            <Route path="/about" element={<About />}/>
             <Route path="*" element={<NotFound />}/>
           </Routes>
         </div>

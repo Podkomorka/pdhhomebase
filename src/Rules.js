@@ -1,6 +1,6 @@
 import DownloadLink from "react-download-link";
 
-const Home = () => {
+const Rules = () => {
   return (
     <div className="rules-page">
       <h1>How to Play</h1>
@@ -73,4 +73,4 @@ const Home = () => {
   );
 }
  
-export default Home;
+export default Rules;

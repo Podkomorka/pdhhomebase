@@ -169,6 +169,94 @@ a:hover {
 }
 
 /* ========== Articles ========== */
+.articles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6rem;
+  justify-items: center;
+  margin-bottom: 4rem;
+}
+.article {
+  width: 40rem;
+  position: relative;
+  box-shadow: .2rem .2rem .5rem var(--font-dark);
+}
+.article__image {
+  object-fit: cover;
+  width: 100%;
+}
+.article__content {
+  line-height: 1.5;
+  text-align: left;
+  padding: 2rem;
+}
+.article__details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.article__author-date {
+  display: flex;
+  flex-direction: column;
+}
+.article__date,
+.article__category,
+.article__author {
+  font-size: 1.5rem;
+}
+.article__categories {
+  display: flex;
+  flex-wrap: wrap;
+}
+.article__category {
+  color: white;
+  border-radius: 5rem;
+  padding: .3rem 1rem .3rem 1rem;
+  margin-left: .5rem;
+}
+.article__category--announcement {
+  background-color: var(--category-announcement);
+}
+.article__category--announcement::after {
+  content: "Announcement";
+}
+.article__category--guide {
+  background-color: var(--category-guide);
+}
+.article__category--guide::after {
+  content: "Guide";
+}
+.article__category--commontary {
+  background-color: var(--category-commontary);
+}
+.article__category--commontary::after {
+  content: "Commontary";
+}
+.article__category--spotlight {
+  background-color: var(--category-spotlight);
+}
+.article__category--spotlight::after {
+  content: "Spotlight";
+}
+.article__category--duel {
+  background-color: var(--category-duel);
+}
+.article__category--duel::after {
+  content: "Duel";
+}
+.article__author {
+  text-align: right;
+}
+.article__author::before {
+  content: "- ";
+}
+.article__link {
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
 
 /* ========== About Us ========== */
 .members {

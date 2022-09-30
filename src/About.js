@@ -1,6 +1,6 @@
 import Members from './members.json';
 
-const Home = () => {
+const About = () => {
   return (
     <div class="about-page">
 
@@ -39,4 +39,4 @@ const Home = () => {
   );
 }
  
-export default Home;
+export default About;
