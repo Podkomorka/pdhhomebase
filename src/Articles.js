@@ -13,7 +13,14 @@ const Articles = () => {
             return(
               <div className="article">
                 
-                <img className="article__image" src={require(`./articles/thumbnail${article.id.toString()}.jpg`)} alt="" height="300" width="400"/>
+                <img 
+                  className="article__image" 
+                  src={require(`./articles/thumbnail${article.id.toString()}.jpg`)} 
+                  alt="" 
+                  height="300" 
+                  width="400"
+                  loading="lazy"
+                />
                 <div className="article__content">
                   <div className="article__details">
                     <p className="article__date">{article.date}</p>

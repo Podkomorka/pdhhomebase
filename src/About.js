@@ -23,6 +23,7 @@ const About = () => {
                   width="160" 
                   height="160" 
                   alt="Member's Icon"
+                  loading="lazy"
                 />
                 <div class="member__info">
                   <h3 class="member__name">{member.name}</h3>
