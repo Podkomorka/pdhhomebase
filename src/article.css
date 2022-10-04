@@ -46,7 +46,7 @@
 
 .body p,
 .details p,
-li {
+.article-details li {
   font-family: sans-serif;
 }
 
@@ -64,11 +64,17 @@ li {
 .indent {
   margin-left:5rem;
 }
+@media (max-width: 660px) {
 
-/* @media (max-width: 390px) {
-  #titleDetail,
-  h2,
-  p {
-    transform: scale(0.9);
+  .article-details h1 {
+    font-size: 3rem;
   }
-} */
+
+  @media (max-width: 390px) {
+    #titleDetail,
+    .article-details h2,
+    .article-details p {
+      transform: scale(0.9);
+    }
+  }
+}
