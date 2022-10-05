@@ -1,15 +1,89 @@
 import ArticleData from './articles.json';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 const Articles = () => {
+
+  const [categories, setCategories] = useState([]);
+  const [filteredArticles, setFilteredArticles] = useState(ArticleData);
+
+  // const filter = (e) => {
+  //   const category = e.target.value;
+
+  //   if (search !== '') {
+  //     const results = ArticleData.filter((article) => {
+  //       return article.title.toLowerCase().includes(search.toLowerCase());
+  //     });
+  //     setFilteredArticles(results);
+  //   } else {
+  //     setFilteredArticles(ArticleData);
+  //   }
+
+  //   setTitle(search);
+  // };
+
+  const handleChange = (e) => { 
+
+    const category = e.target.value;
+    const isChecked = e.target.checked;
+    const activeCategories = categories;
+
+    if (isChecked) {
+      activeCategories.push(category);
+    } else {
+      const index = activeCategories.indexOf(category);
+      if (index > -1) {
+        activeCategories.splice(index, 1);
+      }
+    }
+
+    setCategories(activeCategories);
+
+    if (categories.length !== 0) {
+      const results = ArticleData.filter((article) => {
+        return categories.every(c => article.categories.includes(c));
+      });
+      setFilteredArticles(results);
+    } else {
+      setFilteredArticles(ArticleData);
+    }
+
+    console.log(categories);
+  }; 
+
   return (
     <div className="articles-page">
       <h1>Good Reads</h1>
 
+      <input
+        type="checkbox" 
+        id="checkDuel"
+        value="duel"
+        onChange={handleChange}
+      />
+      <input
+        type="checkbox" 
+        id="checkAnnouncement"
+        value="announcement"
+        onChange={handleChange}
+      />
+      <input
+        type="checkbox" 
+        id="checkCommontary"
+        value="commontary"
+        onChange={handleChange}
+      />
+      <input
+        type="checkbox" 
+        id="checkSpotlight"
+        value="spotlight"
+        onChange={handleChange}
+      />
+
       <div className="articles">
 
         {
-          ArticleData.map( article => {
+          filteredArticles.map(article => {
             return(
               <div className="article">
                 
