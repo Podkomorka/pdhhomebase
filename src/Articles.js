@@ -7,21 +7,6 @@ const Articles = () => {
   const [categories, setCategories] = useState([]);
   const [filteredArticles, setFilteredArticles] = useState(ArticleData);
 
-  // const filter = (e) => {
-  //   const category = e.target.value;
-
-  //   if (search !== '') {
-  //     const results = ArticleData.filter((article) => {
-  //       return article.title.toLowerCase().includes(search.toLowerCase());
-  //     });
-  //     setFilteredArticles(results);
-  //   } else {
-  //     setFilteredArticles(ArticleData);
-  //   }
-
-  //   setTitle(search);
-  // };
-
   const handleChange = (e) => { 
 
     const category = e.target.value;
@@ -54,31 +39,48 @@ const Articles = () => {
   return (
     <div className="articles-page">
       <h1>Good Reads</h1>
-
-      <input
-        type="checkbox" 
-        id="checkDuel"
-        value="duel"
-        onChange={handleChange}
-      />
-      <input
-        type="checkbox" 
-        id="checkAnnouncement"
-        value="announcement"
-        onChange={handleChange}
-      />
-      <input
-        type="checkbox" 
-        id="checkCommontary"
-        value="commontary"
-        onChange={handleChange}
-      />
-      <input
-        type="checkbox" 
-        id="checkSpotlight"
-        value="spotlight"
-        onChange={handleChange}
-      />
+      <div className="filterBtns">
+        <label className='filterBtn announcement'>
+          <input
+            type="checkbox" 
+            value="announcement"
+            onChange={handleChange}
+          />
+          <span className="checkmark"><span>Announcement</span></span>
+        </label>
+        <label className='filterBtn commontary'>
+          <input
+            type="checkbox" 
+            value="commontary"
+            onChange={handleChange}
+          />
+          <span className="checkmark"><span>Commontary</span></span>
+        </label>
+        <label className='filterBtn duel'>
+          <input
+            type="checkbox" 
+            value="duel"
+            onChange={handleChange}
+          />
+          <span className="checkmark"><span>Duel</span></span>
+        </label>
+        <label className='filterBtn guide'>
+          <input
+            type="checkbox" 
+            value="guide"
+            onChange={handleChange}
+          />
+          <span className="checkmark"><span>Guide</span></span>
+        </label>
+        <label className='filterBtn spotlight'>
+          <input
+            type="checkbox" 
+            value="spotlight"
+            onChange={handleChange}
+          />
+          <span className="checkmark"><span>Spotlight</span></span>
+        </label>
+      </div>
 
       <div className="articles">
 
