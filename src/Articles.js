@@ -5,24 +5,43 @@ import { useState } from 'react';
 const Articles = () => {
 
   const [categories, setCategories] = useState([]);
+  const [recentCategory, setRecentCategory] = useState();
   const [filteredArticles, setFilteredArticles] = useState(ArticleData);
 
   const handleChange = (e) => { 
 
     const category = e.target.value;
     const isChecked = e.target.checked;
-    const activeCategories = categories;
+    const currentCategories = categories;
 
-    if (isChecked) {
-      activeCategories.push(category);
-    } else {
-      const index = activeCategories.indexOf(category);
-      if (index > -1) {
-        activeCategories.splice(index, 1);
+    if (category !== "all") {
+      if (category === "duel") {
+        if (isChecked) {
+          currentCategories.push(category);
+        } else {
+          const index = currentCategories.indexOf(category);
+          if (index > -1) {
+            currentCategories.splice(index, 1);
+          }
+        }
+      } else {
+        const index = currentCategories.indexOf(recentCategory);
+          if (index > -1) {
+            currentCategories.splice(index, 1);
+          }
+        setRecentCategory(category);
+        currentCategories.push(category);
       }
+      setCategories(currentCategories);
+    } else {
+      // remove all categories
+      currentCategories.splice(0,currentCategories.length);
+      setCategories(currentCategories);
+      // uncheck all buttons
+      document.querySelectorAll('input').forEach(el => el.checked = false);
     }
 
-    setCategories(activeCategories);
+    console.log(categories);
 
     if (categories.length !== 0) {
       const results = ArticleData.filter((article) => {
@@ -33,52 +52,64 @@ const Articles = () => {
       setFilteredArticles(ArticleData);
     }
 
-    console.log(categories);
   }; 
 
   return (
     <div className="articles-page">
       <h1>Good Reads</h1>
       <div className="filterBtns">
-        <label className='filterBtn announcement'>
+        <label className='filterBtn'>
           <input
             type="checkbox" 
-            value="announcement"
+            name="category"
+            value="all"
             onChange={handleChange}
+          />
+          <span className="checkmark"><span style={{color: "black"}}>Clear</span></span>
+        </label>
+        <label className='filterBtn announcement'>
+          <input
+            type="radio" 
+            name="category"
+            value="announcement"
+            onClick={handleChange}
           />
           <span className="checkmark"><span>Announcement</span></span>
         </label>
         <label className='filterBtn commontary'>
           <input
-            type="checkbox" 
+            type="radio" 
+            name="category" 
             value="commontary"
-            onChange={handleChange}
+            onClick={handleChange}
           />
           <span className="checkmark"><span>Commontary</span></span>
         </label>
-        <label className='filterBtn duel'>
-          <input
-            type="checkbox" 
-            value="duel"
-            onChange={handleChange}
-          />
-          <span className="checkmark"><span>Duel</span></span>
-        </label>
         <label className='filterBtn guide'>
           <input
-            type="checkbox" 
+            type="radio" 
+            name="category" 
             value="guide"
-            onChange={handleChange}
+            onClick={handleChange}
           />
           <span className="checkmark"><span>Guide</span></span>
         </label>
         <label className='filterBtn spotlight'>
           <input
-            type="checkbox" 
+            type="radio" 
+            name="category" 
             value="spotlight"
-            onChange={handleChange}
+            onClick={handleChange}
           />
           <span className="checkmark"><span>Spotlight</span></span>
+        </label>
+        <label className='filterBtn duel'>
+          <input
+            type="checkbox" 
+            value="duel"
+            onClick={handleChange}
+          />
+          <span className="checkmark"><span>Duel</span></span>
         </label>
       </div>
 
