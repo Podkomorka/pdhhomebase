@@ -431,6 +431,9 @@ a:hover {
     }
 
     /* --- Articles Page --- */
+    .filterBtns {
+      padding: 1rem;
+    }
     .articles {
       gap: 0;
     }
