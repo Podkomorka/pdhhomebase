@@ -41,8 +41,6 @@ const Articles = () => {
       document.querySelectorAll('input').forEach(el => el.checked = false);
     }
 
-    console.log(categories);
-
     if (categories.length !== 0) {
       const results = ArticleData.filter((article) => {
         return categories.every(c => article.categories.includes(c));
