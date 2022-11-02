@@ -5,6 +5,6 @@ This version of the site is my first real project using React. The site is respo
 Things I'd like to come back and improve:
   - Make the images load faster when the page is rendered
   - Come up with a more intuitive design for the article filter
-  - Create an application I can use that will convert plain article text into json data of the article with html tags 
+  - Create an application I can use to convert plain article text into json data of the article with html tags 
 
 Visit the live site at: https://www.pdhhomebase.com/
