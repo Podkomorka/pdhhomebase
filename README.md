@@ -6,3 +6,5 @@ Things I'd like to come back and improve:
   - Make the images load faster when the page is rendered
   - Come up with a more intuitive article filter interface
   - Create an application I can use that will convert plain article text into json data of the article with html tags 
+
+Visit the live site at: https://www.pdhhomebase.com/
