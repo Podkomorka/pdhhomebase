@@ -4,58 +4,58 @@ import { useState } from 'react';
 
 const Articles = () => {
 
-  const [categories, setCategories] = useState([]);
-  const [recentCategory, setRecentCategory] = useState();
-  const [filteredArticles, setFilteredArticles] = useState(ArticleData);
+  // const [categories, setCategories] = useState([]);
+  // const [recentCategory, setRecentCategory] = useState();
+  // const [filteredArticles, setFilteredArticles] = useState(ArticleData);
 
-  const handleChange = (e) => { 
+  // const handleChange = (e) => { 
 
-    const category = e.target.value;
-    const isChecked = e.target.checked;
-    const currentCategories = categories;
+  //   const category = e.target.value;
+  //   const isChecked = e.target.checked;
+  //   const currentCategories = categories;
 
-    if (category !== "all") {
-      if (category === "duel") {
-        if (isChecked) {
-          currentCategories.push(category);
-        } else {
-          const index = currentCategories.indexOf(category);
-          if (index > -1) {
-            currentCategories.splice(index, 1);
-          }
-        }
-      } else {
-        const index = currentCategories.indexOf(recentCategory);
-          if (index > -1) {
-            currentCategories.splice(index, 1);
-          }
-        setRecentCategory(category);
-        currentCategories.push(category);
-      }
-      setCategories(currentCategories);
-    } else {
-      // remove all categories
-      currentCategories.splice(0,currentCategories.length);
-      setCategories(currentCategories);
-      // uncheck all buttons
-      document.querySelectorAll('input').forEach(el => el.checked = false);
-    }
+  //   if (category !== "all") {
+  //     if (category === "duel") {
+  //       if (isChecked) {
+  //         currentCategories.push(category);
+  //       } else {
+  //         const index = currentCategories.indexOf(category);
+  //         if (index > -1) {
+  //           currentCategories.splice(index, 1);
+  //         }
+  //       }
+  //     } else {
+  //       const index = currentCategories.indexOf(recentCategory);
+  //         if (index > -1) {
+  //           currentCategories.splice(index, 1);
+  //         }
+  //       setRecentCategory(category);
+  //       currentCategories.push(category);
+  //     }
+  //     setCategories(currentCategories);
+  //   } else {
+  //     // remove all categories
+  //     currentCategories.splice(0,currentCategories.length);
+  //     setCategories(currentCategories);
+  //     // uncheck all buttons
+  //     document.querySelectorAll('input').forEach(el => el.checked = false);
+  //   }
 
-    if (categories.length !== 0) {
-      const results = ArticleData.filter((article) => {
-        return categories.every(c => article.categories.includes(c));
-      });
-      setFilteredArticles(results);
-    } else {
-      setFilteredArticles(ArticleData);
-    }
+  //   if (categories.length !== 0) {
+  //     const results = ArticleData.filter((article) => {
+  //       return categories.every(c => article.categories.includes(c));
+  //     });
+  //     setFilteredArticles(results);
+  //   } else {
+  //     setFilteredArticles(ArticleData);
+  //   }
 
-  }; 
+  // }; 
 
   return (
     <div className="articles-page">
       <h1>Good Reads</h1>
-      <div className="filterBtns">
+      {/* <div className="filterBtns">
         <label className='filterBtn'>
           <input
             type="checkbox" 
@@ -109,12 +109,12 @@ const Articles = () => {
           />
           <span className="checkmark"><span>Duel</span></span>
         </label>
-      </div>
+      </div> */}
 
       <div className="articles">
-
         {
-          filteredArticles.map(article => {
+          // filteredArticles.map(article => {
+            ArticleData.map(article => {
             return(
               <div className="article">
                 

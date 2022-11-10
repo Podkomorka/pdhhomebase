@@ -6,7 +6,7 @@
   --primary-color: #802eaf;
   --font-dark: #181818;
   --font-light: #636363;
-  --font-family: Raleway, sans-serif;
+  --font-family: 'Raleway', sans-serif;
   --page-width: 900px;
   --category-announcement: #eb6424;
   --category-commontary: #0fa3b1;
@@ -175,7 +175,7 @@ a:hover {
 /* ========== Articles ========== */
 
 /* === Filters === */
-.filterBtns {
+/* .filterBtns {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -243,7 +243,7 @@ a:hover {
   color: var(--font-dark);
   user-select: none;
   transition: color 0.2s;
-}
+} */
 
 /* === Article Cards === */
 .articles {
@@ -258,6 +258,8 @@ a:hover {
   position: relative;
   box-shadow: .2rem .2rem .5rem var(--font-dark);
   user-select: none;
+  border-radius: 10px;
+  overflow: hidden;
 }
 .article__image {
   object-fit: cover;
