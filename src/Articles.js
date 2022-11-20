@@ -124,7 +124,6 @@ const Articles = () => {
                   alt="" 
                   height="300" 
                   width="400"
-                  loading="lazy"
                 />
                 <div className="article__content">
                   <div className="article__details">

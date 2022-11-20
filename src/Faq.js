@@ -13,7 +13,6 @@ const Faq = () => {
             className="card"
             src="https://c1.scryfall.com/file/scryfall-cards/large/front/3/9/396f9198-67b6-45d8-91b4-dc853bff9623.jpg?1652823376"
             alt="Abdel Adrian, Gorion's Ward"
-            loading="lazy"
           />
         </div>
       </section>
@@ -28,7 +27,6 @@ const Faq = () => {
             className="card" 
             src="https://c1.scryfall.com/file/scryfall-cards/large/front/8/a/8a665794-513f-4f78-92c9-1844ec27c79c.jpg?1595573141" 
             alt="Oakhame Ranger"
-            loading="lazy"
           />
         </div>
       </section>
@@ -43,7 +41,6 @@ const Faq = () => {
             className="card" 
             src="https://c1.scryfall.com/file/scryfall-cards/large/front/4/2/42852efb-6ab1-42cf-8678-8154f29039bd.jpg?1599767962" 
             alt="Dryad Arbor"
-            loading="lazy"
           />
         </div>
       </section>
