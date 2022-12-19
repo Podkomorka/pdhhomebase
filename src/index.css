@@ -110,6 +110,7 @@ a:hover {
 
 /* ========== Footer ========== */
 .footer p {
+  width: 100%;
   font-size: 1.3rem;
 }
 
@@ -173,79 +174,6 @@ a:hover {
 }
 
 /* ========== Articles ========== */
-
-/* === Filters === */
-/* .filterBtns {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-bottom: 6rem;
-}
-.filterBtn {
-  width: auto;
-  height: 3rem;
-  margin: 1rem 1rem;
-  border-radius: 3rem;
-  cursor: pointer;
-}
-.filterBtns .announcement .checkmark {
-  border: 1px solid var(--category-announcement);
-}
-.filterBtns .announcement input:checked + .checkmark {
-  background: var(--category-announcement);
-  transition: background 0.2s;
-}
-.filterBtns .commontary .checkmark {
-  border: 1px solid var(--category-commontary);
-}
-.filterBtns .commontary input:checked + .checkmark {
-  background: var(--category-commontary);
-  transition: background 0.2s;
-}
-.filterBtns .duel .checkmark {
-  border: 1px solid var(--category-duel);
-}
-.filterBtns .duel input:checked + .checkmark {
-  background: var(--category-duel);
-  transition: background 0.2s;
-}
-.filterBtns .guide .checkmark {
-  border: 1px solid var(--category-guide);
-}
-.filterBtns .guide input:checked + .checkmark {
-  background: var(--category-guide);
-  transition: background 0.2s;
-}
-.filterBtns .spotlight .checkmark {
-  border: 1px solid var(--category-spotlight);
-}
-.filterBtns .spotlight input:checked + .checkmark {
-  background: var(--category-spotlight);
-  transition: background 0.2s;
-}
-.filterBtns input:checked + .checkmark span {
-  color: white;
-  transition: color 0.2s;
-}
-.filterBtn input {
-  display: none;
-}
-.filterBtn .checkmark {
-  width: 100%;
-  height: 100%;
-  border-radius: 3rem;
-  display: inline-block;
-  transition: background 0.2s;
-}
-.checkmark span {
-  display: block;
-  margin: 0.4rem 2rem;
-  color: var(--font-dark);
-  user-select: none;
-  transition: color 0.2s;
-} */
-
-/* === Article Cards === */
 .articles {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -254,7 +182,6 @@ a:hover {
   margin-bottom: 4rem;
 }
 .article {
-  width: 40rem;
   position: relative;
   box-shadow: .2rem .2rem .5rem var(--font-dark);
   user-select: none;
@@ -336,6 +263,24 @@ a:hover {
   height: 100%;
   width: 100%;
   top: 0;
+}
+.archive {
+  width: 80%;
+  margin: 0 auto 4rem auto;
+  padding: 1rem 0;
+}
+
+/* ========== Archived ========== */
+.archived {
+  padding: 1rem 1rem;
+  border-bottom: solid 1px black;
+  display: flex;
+}
+.archived strong {
+  margin-right: 2rem;
+}
+.archived a {
+  text-align: left;
 }
 
 /* ========== About Us ========== */
@@ -419,6 +364,9 @@ a:hover {
   .article {
     max-width: 40rem;
   }
+  .archive {
+    width: 100%;
+  }
 
   /* --- About Us Page --- */
   .member {
@@ -434,15 +382,18 @@ a:hover {
     }
 
     /* --- Articles Page --- */
-    .filterBtns {
-      padding: 1rem;
-    }
     .articles {
-      gap: 0;
+      gap: 1;
     }
-    /* Scale is SO COOL it helped make a whole article card the right size on mobile*/
     .article {
-      transform: scale(0.8);
+      /* transform: scale(0.8); */
+      width: 90%;
+    }
+    .article__details {
+      flex-direction: column;
+    }
+    .article__image {
+      display: none ;
     }
 
     /* --- About Us Page --- */

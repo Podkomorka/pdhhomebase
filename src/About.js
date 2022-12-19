@@ -15,7 +15,7 @@ const About = () => {
         
         {
           Members.map( member => {
-            return(
+            return (
               <div className="member">
                 <img 
                   class="member__picture" 

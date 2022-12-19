@@ -4,6 +4,7 @@ import Home from './Home';
 import Rules from './Rules';
 import Faq from './Faq';
 import Articles from './Articles';
+import Archived from './Archived';
 import About from './About';
 import NotFound from './NotFound';
 import Footer from './Footer';
@@ -20,6 +21,7 @@ function App() {
             <Route path="/rules" element={<Rules />}/>
             <Route path="/faq" element={<Faq />}/>
             <Route path="/articles" element={<Articles />}/>
+            <Route path="/archived" element={<Archived />}/>
             <Route path="/articles/:id" element={<ArticleDetails />}/>
             <Route path="/about" element={<About />}/>
             <Route path="*" element={<NotFound />}/>
