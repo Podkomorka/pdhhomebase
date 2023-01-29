@@ -63,6 +63,8 @@ const Rules = () => {
             <p>The following cards are banned in Pauper Duel Commander:</p>
             <ul>
               <li><a href="https://scryfall.com/card/plist/109/oubliette" target="_blank" rel="noopener noreferrer">Oubliette</a></li>
+              <li><a href="https://scryfall.com/card/afc/132/loyal-apprentice" target="_blank" rel="noopener noreferrer">Loyal Apprentice</a></li>
+              <li><a href="https://scryfall.com/card/clb/108/agent-of-the-shadow-thieves" target="_blank" rel="noopener noreferrer">Agent of the Shadow Thieves</a></li>
               <li>All cards with the Card Type "Conspiracy" (<a href="https://gatherer.wizards.com/Pages/Search/Default.aspx?action=advanced&special=true&type=+%5b%22Conspiracy%22%5d" target="_blank" rel="noopener noreferrer">list</a>)</li>
               <li>All cards that Wizards has removed from constructed formats (<a href="https://magic.wizards.com/en/articles/archive/news/depictions-racism-magic-2020-06-10" target="_blank" rel="noopener noreferrer">list</a>)</li>
             </ul>
