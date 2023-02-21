@@ -39,7 +39,7 @@ const Faq = () => {
         <div>
           <img
             className="card" 
-            src="https://c1.scryfall.com/file/scryfall-cards/large/front/4/2/42852efb-6ab1-42cf-8678-8154f29039bd.jpg?1599767962" 
+            src="https://cards.scryfall.io/normal/front/4/2/42852efb-6ab1-42cf-8678-8154f29039bd.jpg?1599767962" 
             alt="Dryad Arbor"
           />
         </div>
