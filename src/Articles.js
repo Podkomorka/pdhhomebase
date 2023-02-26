@@ -12,7 +12,6 @@ const Articles = () => {
           ArticleData.map(article => {
             return(
               <div className="article">
-                
                 <img 
                   className="article__image" 
                   src={require(`./articles/thumbnail${article.id.toString()}.jpg`)} 
