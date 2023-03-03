@@ -46,7 +46,7 @@ const Rules = () => {
           <DownloadLink 
             style={{}} // Remove component default styling
             label="Comprehensive Rules (Download)"
-            filename="pdh-comprehensive-rules-v5.3.txt"
+            filename="assets/pdh-comprehensive-rules-v5.3.txt"
           />
         </section>
 
