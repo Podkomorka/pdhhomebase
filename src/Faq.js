@@ -1,4 +1,11 @@
+import { useEffect } from "react";
+
 const Faq = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
+
   return (
     <div className="faq-page">
       <h1>Format Oddities</h1>

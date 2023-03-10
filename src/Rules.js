@@ -43,8 +43,12 @@ const Rules = () => {
           </div>
         </section>
 
-        <section className="rule">
+        <section>
           <a href={require("./assets/pdh-comprehensive-rules-v5.3.txt")} download="pdh-comprehensive-rules-v5.3.txt">Comprehensive Rules (Download)</a>
+        </section>
+          <Link to="/faq">See FAQ for information on unique mechanics</Link>
+        <section>
+
         </section>
 
         <div className="break"></div>
