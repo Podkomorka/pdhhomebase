@@ -37,7 +37,7 @@ const Rules = () => {
             <ul>
               <li><a href="https://scryfall.com/card/ice/87/mystic-remora" target="_blank" rel="noopener noreferrer">Mystic Remora</a> (<a href="https://pdhhomebase.wixsite.com/pdhhomebase/post/may-17-2021-ban-announcement" target="_blank">related post</a>)</li>
               <li><a href="https://scryfall.com/card/mb1/468/rhystic-study" target="_blank" rel="noopener noreferrer">Rhystic Study</a> (<a href="https://pdhhomebase.wixsite.com/pdhhomebase/post/may-17-2021-ban-announcement" target="_blank">related post</a>)</li>
-              <li>All cards with t he Card Type "Conspiracy" (<a href="https://gatherer.wizards.com/Pages/Search/Default.aspx?action=advanced&special=true&type=+%5b%22Conspiracy%22%5d" target="_blank" rel="noopener noreferrer">list</a>)</li>
+              <li>All cards with the Card Type "Conspiracy" (<a href="https://gatherer.wizards.com/Pages/Search/Default.aspx?action=advanced&special=true&type=+%5b%22Conspiracy%22%5d" target="_blank" rel="noopener noreferrer">list</a>)</li>
               <li>All cards that Wizards has removed from constructed formats (<a href="https://magic.wizards.com/en/articles/archive/news/depictions-racism-magic-2020-06-10" target="_blank" rel="noopener noreferrer">list</a>)</li>
             </ul>
           </div>
