@@ -1,0 +1,115 @@
+v5.3.1
+Last update: Mar 15, 2023
+
+v5 changes:
+* Clarified that double-faced commanders with a land back face are legal (906.1).
+* Clarified that lands cannot be played from the command zone (906.8).
+v5.1 changes:
+* Fixed a typo where one rule still mentioned 21 commander damage (907.4).
+v5.2 changes:
+* Non-traditional or oversized cards are no longer legal (906.5f).
+* Updated rule for bringing cards in from outside of the game to work with dungeons (906.11).
+v5.3 changes:
+* Updated rule allowing noncreature commanders with the "can be your commander ability" to not specify planeswalkers (906.3a).
+* Added rule for the "Choose a Background" ability (907.7).
+v5.3.1 changes:
+* Tweaked wording on the Background rule (907.7) for better consistency and clarity. No change in mechanics or legality.
+
+
+---
+
+The following rules are largely based on the Commander variant rules (CR 903). Differences between them are **bolded**.
+
+906. Pauper EDH Option
+
+**906.1.** In the Pauper EDH variant, each deck is led by a **nonland creature of uncommon rarity (see rule 906.12)** designated as that deck’s commander **(in the case of double-faced cards, only the front face has to meet this restriction)**. The Pauper EDH variant uses all the normal rules for a Magic game, with the following additions.
+Example: Dryad Arbor is a land creature. It can’t be a commander.
+Akoum Warrior is a modal double-faced card, which is a creature on its front face and a land on its back face. It can be a commander.
+
+906.2. A Pauper EDH game may be a two-player game or a multiplayer game. The default multiplayer setup is the Free-for-All variant with the attack multiple players option and without the limited range of influence option. See rule 806, “Free-for-All Variant.”
+
+**906.3.** Each deck has a **nonland creature card of uncommon rarity (see rule 906.12)** designated as its commander. This designation is not a characteristic of the object represented by the card; rather, it is an attribute of the card itself. The card retains this designation even when it changes zones.
+Example: A face down commander (Brine Elemental, for example) is still a commander. A commander that’s copying another card (due to Clone’s effect, for example) is still a commander. A permanent that’s copying a commander (such as Cogwork Assembler, for example, creating a copy of a player’s commander) is not a commander.
+
+**906.3a.** Some cards have an ability that states the card can be your commander. This ability modifies the rules for deck construction, and it functions before the game begins. **These cards must be of uncommon rarity to be legal commanders in Pauper EDH.** See also rule 113.6n.
+
+906.3b If a player’s commander is a meld card and it’s melded with the other member of its meld pair, the resulting melded permanent is that player’s commander.
+
+906.3c If a player’s commander is a component of a merged permanent, the resulting merged permanent is that player’s commander.
+
+906.3d If an effect refers to controlling a commander, it refers to a permanent on the battlefield that is a commander. If an effect refers to casting a commander, it refers to a spell that is a commander. If an effect refers to a commander in a specific zone, it refers to a card in that zone that is a commander.
+
+**906.3e The Adventure part of a commander (see rule 715) retains the commander designation.
+Example: An adventurer commander can be cast as an Adventure from the command zone.
+Casting a commander as an Adventure from the command zone is also subject to the “commander tax” (see rule 906.8).
+Casting the Adventure part of a commander from the command zone also increases the “commander tax.”
+If a commander was cast as an Adventure, it can be returned to the command zone under the same rules a regular commander can (see rule 906.9).**
+
+906.4. The Pauper EDH variant uses color identity to determine what cards can be in a deck with a certain commander. The color identity of a card is the color or colors of any mana symbols in that card’s mana cost or rules text, plus any colors defined by its characteristic-defining abilities (see rule 604.3) or color indicator (see rule 204).
+Example: Dreadwing is a black creature with mana cost {B} and ability “{1}{U}{R}: Dreadwing gets +3/+0 and gains flying until end of turn.” Dreadwing’s color identity is blue, black, and red.
+
+906.4a Color identity is established before the game begins.
+
+906.4b Reminder text is ignored when determining a card’s color identity. See rule 207.2.
+
+906.4c The back face of a double-faced card (see rule 711) is included when determining a card’s color identity. This is an exception to rule 711.4a.
+Example: Civilized Scholar is the front face of a double-faced card with mana cost {2}{U}. Homicidal Brute is the back face of that double-faced card and has a red color indicator. The card’s color identity is blue and red.
+
+906.5. Each Pauper EDH deck is subject to the following deck construction rules.
+
+906.5a Each deck must contain exactly 100 cards, including its commander. In other words, the minimum deck size and the maximum deck size are both 100.
+
+906.5b Other than basic lands, each card in a Pauper EDH deck must have a different English name.
+
+906.5c A card can be included in a Pauper EDH deck only if every color in its color identity is also found in the color identity of the deck’s commander.
+Example: Izzet Guildmage is an uncommon creature with mana cost {U/R}{U/R}. Izzet Guildmage’s color identity is blue and red. Each card in an Izzet Guildmage Pauper EDH deck must be only blue, only red, both blue and red, or have no color. Each mana symbol in the mana cost or rules text of a card in this deck must be only blue, only red, both blue and red, or have no color.
+
+906.5d A card with a basic land type may be included in a Pauper EDH deck only if each color of mana it could produce is included in the commander’s color identity.
+Example: Izzet Guildmage’s color identity is blue and red. An Izzet Guildmage Pauper EDH deck may include land cards with the basic land types Island and/or Mountain and/or Wastes. It can’t include any land cards with the basic land types Plains, Swamp, or Forest.
+
+**906.5e All cards other than the deck’s commander must be of common rarity (see rule 906.12).**
+
+**906.5f A card can be included in a Pauper EDH deck only if it has ever been printed in a physical Magic set or product as a traditional card.
+Example: Shrine Keeper is a card which only exists in Magic: The Gathering Arena. It is not legal in Pauper EDH.
+Example: Aswan Jaguar is a card which only has an oversized physical printing. It is not legal in Pauper EDH because oversized cards are not traditional cards (see rule 108.2a).**
+
+906.6. At the start of the game, each player puts their commander from their deck face up into the command zone. Then each player shuffles the remaining 99 cards of their deck so that the cards are in a random order. Those cards become the player’s library.
+
+**906.7.** Once the starting player has been determined, each player sets their life total to **30** and draws a hand of seven cards.
+
+**906.8.** A player may cast a commander they own from the command zone. A commander cast from the command zone costs an additional {2} for each previous time the player casting it has cast it from the command zone that game. This additional cost is informally known as the “commander tax.”
+**Example: Akoum Warrior is a modal double-faced card, which is a creature on its front face and a land on its back face. Because lands can’t be cast, its land face cannot be played from the command zone.**
+
+906.9. A commander may return to the command zone during a Pauper EDH game.
+
+906.9a If a commander is in a graveyard or in exile and that card was put into that zone since the last time state-based actions were checked, its owner may put it into the command zone. This is a state-based action. See rule 704.
+
+906.9b If a commander would be put into its owner’s hand or library from anywhere, its owner may put it into the command zone instead. This replacement effect may apply more than once to the same event. This is an exception to rule 614.5.
+
+906.9c If a commander is a melded permanent or a merged permanent and its owner chooses to put it into the command zone using the replacement effect described in rule 906.9b, that permanent and each component representing it that isn’t a commander are put into the appropriate zone, and the card that represents it and is a commander is put into the command zone.
+
+906.10. The Pauper EDH variant includes the following specification for winning and losing the game. All other rules for ending the game also apply. (See rule 104)
+
+**906.10a** A player that’s been dealt **16** or more combat damage by the same commander over the course of the game loses the game. (This is a state-based action. See rule 704)
+
+906.11. Parts of abilities which bring other traditional card(s) you own from outside the game into the game do not function in Pauper EDH (see rule 108.2a.). 
+Example: The learn mechanic (as on First Day of Class) can successfully discard and draw, but trying to bring a lesson into the game from outside the game doesn’t function in Pauper EDH because lessons are traditional cards. 
+Example: The venture into the dungeon mechanic (as on Ranger’s Hawk) functions in Pauper EDH because Dungeons are nontraditional cards (see rule 309.1.).
+
+**906.12. If a common version of a particular card was ever released in a Magic: The Gathering paper product or Magic: The Gathering Online, any version of that card is legal in this format. This includes land cards that were printed with both a common set symbol and the L rarity code.
+
+**907. Partner. For the purpose of Pauper EDH games, the following rules replace the entirety of rule section 702.123.**
+
+**907.1.** Partner is an ability that modifies the rules for deck construction in the Pauper EDH variant (see rule 906), and it functions before the game begins. Rather than a single **nonland creature card of uncommon rarity (see rule 906.12)**, you may designate two **nonland creature cards of uncommon rarity** as your commander if each has partner.
+
+907.2. Your deck must contain exactly 100 cards, including its two commanders. Both commanders begin the game in the command zone.
+
+907.3. A rule or effect that refers to your commander’s color identity refers to the combined color identities of your two commanders. See rule 906.4.
+
+**907.4.** Except for determining the color identity of your commander, the two commanders function independently. When casting a commander with partner, ignore how many times your other commander has been cast (see rule 906.6). When determining whether a player has been dealt **16** or more combat damage by the same commander, consider damage from each of your two commanders separately (see rule 906.10a).
+
+907.5. If an effect refers to your commander while you have two commanders, it refers to either one. If an effect causes you to perform an action on your commander and it could affect both, you choose which it refers to at the time the effect is applied.
+
+**907.6.** “Partner with [name]” is a variant of the partner ability. “Partner with [name]” represents two abilities. One is a static ability that modifies the rules for deck construction. Rather than a single **nonland creature card of uncommon rarity (see rule 906.12)**, you may designate two **nonland creature cards of uncommon rarity** as your commander if each has a “partner with [name]” ability with the other’s name. You can’t designate **two cards** as your commander if one has a “partner with [name]” ability and the other isn’t the named card. The other ability represented by “partner with [name]” is a triggered ability that means “When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library.”
+
+**907.7.** “Choose a Background” is a variant of the partner ability that represents a static ability. “Choose a Background” means “You may designate two cards as your commander as long as one of them is this card and the other is an **uncommon** Background enchantment.” You can’t designate two cards as your commander if one has a “choose a Background” ability and the other is not an **uncommon** Background enchantment, and Background enchantments cannot be your commander unless you have also designated a commander with “choose a Background.” 
