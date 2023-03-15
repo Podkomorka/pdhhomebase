@@ -19,7 +19,7 @@ const Rules = () => {
         <section className="rule">
           <div>
             <h2>CARD RARITY</h2>
-            <p>Card rarity includes only paper and MTGO rarities and must have been physically printed at least once.</p>
+            <p>If a card has been printed at multiple rarities, it only requires one common printing to be legal in the 99, or one uncommon printing to be a legal commander. (Only paper cards and MTGO releases are considered, not Arena.)</p>
           </div>
         </section>
 
