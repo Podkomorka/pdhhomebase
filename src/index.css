@@ -138,6 +138,7 @@ a:hover {
   width: 100%;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 }
 .menu > li {
   overflow: hidden;
@@ -286,7 +287,7 @@ a:hover {
   user-select: none;
   border-radius: 10px;
   overflow: hidden;
-  z-index: -1; /* place underneath mobile nav menu */
+  z-index: 1; /* place underneath mobile nav menu */
 }
 .article__image {
   object-fit: cover;
