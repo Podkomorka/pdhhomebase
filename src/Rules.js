@@ -1,6 +1,4 @@
-import DownloadLink from "react-download-link";
 import { Link } from 'react-router-dom';
-import comprules from './assets/comprehensive-rules.txt'
 
 const Rules = () => {
   return (

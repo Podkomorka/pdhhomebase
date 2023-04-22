@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <img src={require("./assets/icon.jpg")} alt="pdh home base logo"/>
+      <img id='logo' src={require("./assets/icon.jpg")} alt="pdh home base logo"/>
       <div className="links">
         <Link to="/">HOME</Link>
         <Link to="/rules">RULES</Link>

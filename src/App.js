@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Navbar';
+import NavbarMobile from './NavbarMobile';
 import Home from './Home';
 import Rules from './Rules';
 import Faq from './Faq';
@@ -14,6 +15,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <NavbarMobile />
         <Navbar />
         <div className="content">
           <Routes>
