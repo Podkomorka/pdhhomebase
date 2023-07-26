@@ -51,7 +51,7 @@ const Rules = () => {
 
         <div className="break"></div>
 
-        <h3><a id='1v1' style={{all: 'unset'}}>Pauper Duel Commander (1v1)</a></h3>
+        <h3 id='1v1' >Pauper Duel Commander (1v1)</h3>
         <section className="rule">
           <h2>GAMEPLAY</h2>
           <p>Suited for 2 players. Starting life total is 25, commander damage is 21. A free mulligan is not allowed. The player going first does not draw a card on their first turn.</p>
