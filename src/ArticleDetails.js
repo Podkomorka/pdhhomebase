@@ -16,7 +16,7 @@ const ArticleDetails = () => {
       <section id="titleDetail">
         <h1>{article.title}</h1>
         <div className="details">
-          <p className="author">{article.author}</p>
+          <p className="author">By: {article.author}</p>
           <p>|</p>
           <p className="date">{article.date}</p>
           <p>|</p>
